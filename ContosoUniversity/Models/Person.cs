@@ -27,7 +27,7 @@ namespace ContosoUniversity.Models
         }
 
         [Required]
-        [StringLength(100)]
+        [StringLength(256)]
         [Display(Name = "Email")]
         public string Email { get; set;}
     }
